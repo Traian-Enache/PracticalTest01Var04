@@ -31,7 +31,8 @@
         <CheckBox
             android:id="@+id/check_1"
             android:layout_width="40dp"
-            android:layout_height="40dp" />
+            android:layout_height="40dp"
+            android:saveEnabled="false"/>
 
         <EditText
             android:id="@+id/text_row_1"
@@ -40,7 +41,8 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="text"
-            android:text="Name"
+            android:text=""
+            android:saveEnabled="false"
             android:autofillHints="" />
 
     </LinearLayout>
@@ -53,6 +55,7 @@
             <CheckBox
                 android:id="@+id/check_2"
                 android:layout_width="40dp"
+                android:saveEnabled="false"
                 android:layout_height="40dp" />
 
             <EditText
@@ -62,7 +65,8 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="text"
-                android:text="Name"
+                android:text=""
+                android:saveEnabled="false"
                 android:autofillHints="" />
 
         </LinearLayout>
@@ -87,6 +91,8 @@
             android:autofillHints=""
             android:ems="10"
             android:inputType="text"
+            android:visibility="invisible"
+            android:editable="false"
             android:text="Hidden" />
 
 
